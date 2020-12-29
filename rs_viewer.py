@@ -38,7 +38,7 @@ def main():
             images = np.hstack((color_image, depth_colormap))
             height = images.shape[0]
             width = images.shape[1]
-            images_resized = cv2.resize(images , (int(width * resize_factor), int(height * resize_factor)))
+            images_resized = cv2.resize(images, (int(width * resize_factor), int(height * resize_factor)))
 
             cv2.imshow(window_name, images_resized)
             key = cv2.waitKey(1)

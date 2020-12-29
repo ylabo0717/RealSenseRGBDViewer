@@ -11,7 +11,7 @@
 ## Usage
 
     git clone https://github.com/y-labo/RealSenseViewer.git
-    cd RealSenseSimpleViewer
+    cd RealSenseViewer
     pipenv install
     pipenv shell
     python rs_viewer.py

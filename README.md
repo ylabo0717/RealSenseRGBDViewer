@@ -1,4 +1,4 @@
-# RealSense Viewer in OpenCV-Python
+# RealSense RGB-D Viewer in OpenCV-Python
 
 ## Environment
 
